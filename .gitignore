@@ -23,10 +23,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Environment variables
-.env
-.env.local
-.env.*.local
-
 # Firebase emulator data (optional but recommended to ignore)
 .firebase/
