@@ -17,6 +17,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# local env files
+.env*.local
+.env
+
 # vercel
 .vercel
 
@@ -26,3 +30,7 @@ next-env.d.ts
 
 # Firebase emulator data (optional but recommended to ignore)
 .firebase/
+
+# Package manager files (keep npm, ignore others)
+pnpm-lock.yaml
+yarn.lock
